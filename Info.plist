@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Potatofactory</string>
+	<key>CFBundleDisplayName</key>
+	<string>wide-vimeo-safari</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.yourcompany.wide-vimeo-safari</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict/>
+	<key>Content</key>
+	<dict>
+		<key>Blacklist</key>
+		<array>
+			<string>http://*.vimeo.com/channels/*</string>
+		</array>
+		<key>Scripts</key>
+		<dict/>
+		<key>Stylesheets</key>
+		<array>
+			<string>vimeo.css</string>
+		</array>
+		<key>Whitelist</key>
+		<array>
+			<string>https://*.vimeo.com/*</string>
+			<string>http://*.vimeo.com/*</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Show wider version of Vimeo videos</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>None</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://github.com/potatofactory</string>
+</dict>
+</plist>

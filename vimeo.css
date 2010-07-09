@@ -1,0 +1,31 @@
+.video, .html5_player, .html5_player video, .player{
+	width:845px !important;;
+	height:505px !important;
+}
+
+.html5_player, .playerd{
+	margin-left:50px !important;
+	margin-bottom:10px !important;
+}
+.video_stuff{
+	float:left !important;
+	margin-top:20px !important;
+	margin-left:50px !important;
+}
+
+.description_container {
+	width: 540px !important;
+	margin-left: 350px !important;
+	margin-top: -380px !important;
+	position: relative !important;
+}
+
+.brozar .more {
+	height: 340px !important;
+}
+
+.brozar .more .scrolly_container,
+.brozar .more .scrolly_container .scrolly_area,
+.brozar .more .scrolly_container .content {
+	height: 280px !important;
+}
