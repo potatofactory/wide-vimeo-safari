@@ -20,7 +20,10 @@
 	<dict>
 		<key>Blacklist</key>
 		<array>
-			<string>http://*.vimeo.com/channels/*</string>
+			<string>http://www.vimeo.com/channels/*</string>
+			<string>http://vimeo.com/channels/*</string>
+			<string>http://vimeo.com/</string>
+			<string>http://www.vimeo.com/</string>
 		</array>
 		<key>Scripts</key>
 		<dict/>
@@ -30,8 +33,8 @@
 		</array>
 		<key>Whitelist</key>
 		<array>
-			<string>https://*.vimeo.com/*</string>
-			<string>http://*.vimeo.com/*</string>
+			<string>https://www.vimeo.com/*</string>
+			<string>http://vimeo.com/*</string>
 		</array>
 	</dict>
 	<key>Description</key>
@@ -42,8 +45,10 @@
 	<dict>
 		<key>Website Access</key>
 		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
 			<key>Level</key>
-			<string>None</string>
+			<string>All</string>
 		</dict>
 	</dict>
 	<key>Website</key>
